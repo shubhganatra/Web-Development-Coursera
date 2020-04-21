@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 1.75em;
+    text-align: center;
+}
+.sec_title {
+    float: right;
+    top: 0px;
+    right: 0px;
+    font-size: 1.25em;
+    float: right;
+    background-color: honeydew;
+    border-width: 1px;
+}
+p {
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    clear: both;
+    border-width: 1px;
+    border-color: black;
+    margin: auto;
+}
+#container {
+    position: relative;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .dp-1,.dp-2,.dp-3,.dp-4,.dp-5,.dp-6,.dp-7,.dp-8,.dp-9,.dp-10,.dp-11,.dp-12 {
+        background-color: cyan;
+        float: left;
+        padding: 10px;
+        margin: 5px;
+    }
+    .dp-1 {
+        width: 8.33%;
+    }
+    .dp-2 {
+        width: 16.66%;
+    }
+    .dp-3 {
+        width: 25%;
+    }
+    .dp-4 {
+        width: 33.33%;
+    }
+    .dp-5 {
+        width: 41.66%;
+    }
+    .dp-6 {
+        width: 50%;
+    }
+    .dp-7 {
+        width: 58.33%;
+    }
+    .dp-8 {
+        width: 66.66%;
+    }
+    .dp-9 {
+        width: 75%;
+    }
+    .dp-10 {
+        width: 83.33%;
+    }
+    .dp-11 {
+        width: 91.66%;
+    }
+    .dp-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tb-1,.tb-2,.tb-3,.tb-4,.tb-5,.tb-6,.tb-7,.tb-8,.tb-9,.tb-10,.tb-11,.tb-12 {
+        background-color: cyan;
+        float: left;
+        border: 1px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tb-1 {
+        width: 8.33%;
+    }
+    .tb-2 {
+        width: 16.66%;
+    }
+    .tb-3 {
+        width: 25%;
+    }
+    .tb-4 {
+        width: 33.33%;
+    }
+    .tb-5 {
+        width: 41.66%;
+    }
+    .tb-6 {
+        width: 50%;
+    }
+    .tb-7 {
+        width: 58.33%;
+    }
+    .tb-8 {
+        width: 66.66%;
+    }
+    .tb-9 {
+        width: 75%;
+    }
+    .tb-10 {
+        width: 83.33%;
+    }
+    .tb-11 {
+        width: 91.66%;
+    }
+    .tb-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .mb-1,.mb-2,.mb-3,.mb-4,.mb-5,.mb-6,.mb-7,.mb-8,.mb-9,.mb-10,.mb-11,.mb-12 {
+        background-color: cyan;
+        float: left;
+        border: 1px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .mb-1 {
+        width: 8.33%;
+    }
+    .mb-2 {
+        width: 16.66%;
+    }
+    .mb-3 {
+        width: 25%;
+    }
+    .mb-4 {
+        width: 33.33%;
+    }
+    .mb-5 {
+        width: 41.66%;
+    }
+    .mb-6 {
+        width: 50%;
+    }
+    .mb-7 {
+        width: 58.33%;
+    }
+    .mb-8 {
+        width: 66.66%;
+    }
+    .mb-9 {
+        width: 75%;
+    }
+    .mb-10 {
+        width: 83.33%;
+    }
+    .mb-11 {
+        width: 91.66%;
+    }
+    .mb-12 {
+        width: 100%;
+    }
+}
