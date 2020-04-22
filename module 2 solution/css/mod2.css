@@ -3,40 +3,57 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
+    text-align: center;
+    text-emphasis: bold;
     font-size: 1.75em;
+}
+.row {
+    width: 90%;
+    position: relative;
     text-align: center;
 }
-.sec_title {
+.box {
+    float: left;
+    background-color: coral;
+    margin: 10px;
+    border: 1px solid black;
+}
+#sec_title1 {
+    background-color: honeydew;
     float: right;
+    position: relative;
     top: 0px;
     right: 0px;
     font-size: 1.25em;
+    border: 1px solid black;
+    padding: 5px;
+}
+#sec_title2 {
+    background-color: white;
     float: right;
-    background-color: honeydew;
-    border-width: 1px;
-}
-p {
-    border-width: 1px;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
-}
-section {
-    clear: both;
-    border-width: 1px;
-    border-color: black;
-    margin: auto;
-}
-#container {
     position: relative;
-    width: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 1.25em;
+    border: 1px solid black;
+    padding: 5px;
+}
+#sec_title3 {
+    background-color: peachpuff;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 1.25em;
+    border: 1px solid black;
+    padding: 5px;
+}
+.content {
+    clear: both;
 }
 @media (min-width: 992px) {
     .dp-1,.dp-2,.dp-3,.dp-4,.dp-5,.dp-6,.dp-7,.dp-8,.dp-9,.dp-10,.dp-11,.dp-12 {
-        background-color: cyan;
         float: left;
-        padding: 10px;
-        margin: 5px;
     }
     .dp-1 {
         width: 8.33%;
@@ -48,7 +65,7 @@ section {
         width: 25%;
     }
     .dp-4 {
-        width: 33.33%;
+        width: 30%;
     }
     .dp-5 {
         width: 41.66%;
@@ -77,12 +94,7 @@ section {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .tb-1,.tb-2,.tb-3,.tb-4,.tb-5,.tb-6,.tb-7,.tb-8,.tb-9,.tb-10,.tb-11,.tb-12 {
-        background-color: cyan;
-        float: left;
-        border: 1px;
-        padding: 10px;
-        margin: 5px;
-    }
+        float: left;}
     .tb-1 {
         width: 8.33%;
     }
@@ -99,7 +111,7 @@ section {
         width: 41.66%;
     }
     .tb-6 {
-        width: 50%;
+        width: 45%;
     }
     .tb-7 {
         width: 58.33%;
@@ -117,16 +129,12 @@ section {
         width: 91.66%;
     }
     .tb-12 {
-        width: 100%;
+        width: 90%;
     }
 }
 @media (max-width: 768px) {
     .mb-1,.mb-2,.mb-3,.mb-4,.mb-5,.mb-6,.mb-7,.mb-8,.mb-9,.mb-10,.mb-11,.mb-12 {
-        background-color: cyan;
         float: left;
-        border: 1px;
-        padding: 10px;
-        margin: 5px;
     }
     .mb-1 {
         width: 8.33%;
@@ -162,6 +170,6 @@ section {
         width: 91.66%;
     }
     .mb-12 {
-        width: 100%;
+        width: 90%;
     }
 }
