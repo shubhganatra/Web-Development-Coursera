@@ -1,0 +1,19 @@
+#header-nav {
+  position: relative;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: gray;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}

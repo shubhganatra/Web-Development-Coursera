@@ -4394,20 +4394,27 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
+  position: relative;
+  right: 0px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
   background-color: transparent;
+  background-image: none;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
+  outline: 0;
   text-decoration: none;
+
 }
 
 .navbar-toggler-icon {
   display: inline-block;
+  right: 0px;
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
@@ -4467,6 +4474,34 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 768px) {
+  .navbar-toggler {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  outline: 0;
+  text-decoration: none;
+
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
